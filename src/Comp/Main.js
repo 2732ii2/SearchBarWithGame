@@ -10,8 +10,6 @@ export default function Main() {
     <>
     
     <Routes>
-        <Route path="/dashboard" element={<Dashoard />} />
-        <Route path="/profile" element={<Profile />} />
         <Route path="/search" element={<SearchBar />} />
         <Route path="/game" element={<Game />} />
         <Route path="/" element={<Home />} />
