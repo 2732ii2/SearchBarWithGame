@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Specdi{
+  /* perspective: 500px;transition: all ease-in .5s; */
+
+}
+.Specdi:hover{
+  background: rgba(206, 121, 240, 0.4);
+  /* rotate: -20deg; */
+  /* transform: rotateY(45deg);
+  margin-left: -70px; */
+  /* box-shadow: 20px 20px 33px -20px white; */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button{
+  /* {{fontSize:"20px",background:"rgba(0,0,0,.5)"
+    ,borderRadius:"10px",color:"white",padding:"10px"
+    ,paddingLeft:"15px",paddingRight:"15px"}} */
+    font-size: 20px;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.selected{
+  border: 2px solid blue;
+  background: white;
+  color: blue;
+}
+.correct{
+  border: 3px solid rgb(16, 244, 16);
+  background: rgb(90, 239, 90,.9);
+  color: white;
+}
+h1{
+  font-size: 40px;
+  text-transform: capitalize;
+}
+span{
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+.uncorrect{
+  border: 2px solid red;
+  background: white;
+  color: red;
+}
+
+#roller{
+  animation: roll 1.5s infinite .2s linear ;
+}
+@keyframes roll {
+  0%{
+    rotate: 0deg;
+  }
+  100%{
+    rotate: 360deg;
+  }
+}
